@@ -1,0 +1,261 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.homePage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.homePage .photoDiv{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePage .photoDiv .imageContainer{
+    height: 10rem;
+    width: 10rem;
+    border: thin solid #d89e00;
+    border-radius: 50%;
+}
+
+.homePage .photoDiv .imageContainer img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.homePage .textDiv{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.homePage .textDiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.homePage .textDiv div h1{
+    font-size: 5rem;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.homePage .textDiv div h1 strong{
+    color: #d89e00;
+}
+
+.homePage .textDiv div h3{
+    color: #b1b1b1;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 25px;
+}
+
+.homePage .textDiv div h5{
+    color: #d89e00;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.aboutPage{
+    height: 35vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.aboutPage div {
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 2rem;
+}
+
+.aboutPage div h1{
+    width: 30%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2px;
+    color: #d89e00;
+}
+
+.aboutPage .paraDiv{
+    width: 90%;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.aboutPage .paraDiv p{
+    width: 90%;
+    text-indent: 10px;
+}
+
+.workPage{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.workPage .workDiv{
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.workPage .workDiv:hover{
+    background-color: #2e2e2e;
+
+}
+
+.workPage .workDiv img{
+    width: 7rem;
+    height: 7rem;
+    padding: 10px;
+    border: medium solid white;
+    border-radius: 50%;
+    background-color: #d89e00;
+}
+
+.workPage .workDiv h4{
+    margin-bottom: 4px;
+}
+
+.workPage .workDiv h6{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #b1b1b1;
+}
+
+.contactPage{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #181818;
+}
+
+.contactPage div{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 2rem;
+}
+
+.contactPage div h2{
+    width: 30%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2px;
+    color: #d89e00;
+}
+
+.contactPage .contactContainer{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.contactPage .contactContainer .imageContainer{
+    height: 15rem;
+    width: 15rem;
+}
+
+.contactPage .contactContainer .imageContainer img{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.contactPage .contactContainer .contactDisplay{
+    width: 65%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactPage .contactContainer .contactDisplay img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+#e1{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d89e00;
+}
+
+#e1:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d89e00;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+::selection{
+    background-color: gray;
+    color: black;
+}
